@@ -259,7 +259,7 @@ def process_attack_details(message):
             else:
                 # Log the attack with correct variable name
                 log_command(user_id, target, port, attack_time)
-                full_command = f"./LEGEND {target} {port} {attack_time}"  # ✅  Correct variable name
+                full_command = f"./tonu {target} {port} {attack_time} 900"  # ✅  Correct variable name
                 username = message.chat.username or "No username"
                 response = (
                     f"🚀 𝗔𝘁𝘁𝗮𝗰𝗸 𝗦𝗲𝗻𝘁 𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆! 🚀\n\n"
